@@ -90,7 +90,7 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'instagram',
+        'NAME': 'insta',
         'USER': 'ange',
         'PASSWORD':'ange1997',
     }
@@ -121,7 +121,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Afrika/Kigali'
+TIME_ZONE = 'Africa/Kigali'
 
 USE_I18N = True
 
