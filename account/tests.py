@@ -57,7 +57,7 @@ class CommentTestClass(TestCase):
         self.nature.save_prof()
 
         self.uuwange=Image(2,name='uuwange',description='beautiful',user=self.user1,likes="1",post="image")
-        self.james.save_image()
+        self.uuwange.save_image()
       
         self.com=Comment(comment='leaves',comment_image=self.uuwange,posted_by=self.nature,)
         self.com.save_com()
