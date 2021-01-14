@@ -2,7 +2,7 @@
 
 ### Description
 This is an application that is a little similar to Instagram as the user is able to see the followers, comment on an image, post an image and some other features that are found on Instagram.
-  4thth/01/2021.
+  14th/01/2021.
 
 ### Author: Ange Uwimana
 
