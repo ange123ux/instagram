@@ -1,5 +1,5 @@
 from django.shortcuts import render,redirect,get_object_or_404
-from .models import Image,Profile,Comment
+from .models import Image,Profile,Comment, NewsLetterRecipients
 from django.http import HttpResponse,Http404,HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
 from django.urls import reverse

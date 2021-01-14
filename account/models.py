@@ -77,7 +77,7 @@ class Profile(models.Model):
     
     def number_following(self):
         if self.fowing.count():
-            returnself.following.count()
+            return self.following.count()
         else:
             return 0
     @classmethod
@@ -108,8 +108,9 @@ class Comment(models.Model):
         comments=Comment.objects.filter(image_id=id)
         return comments
     def __str__(self):
-        return self.posted_by
+        return str(self.posted_by)
+        
 
-class NewsLetterRecients(models.Model):
+class NewsLetterRecipients(models.Model):
     name=models.CharField(max_length=30)
     email=models.EmailField()
