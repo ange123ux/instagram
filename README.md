@@ -1,7 +1,7 @@
-# PERSONAL GALLERY
+# INSTAGRAM
 
 ### Description
-This is a gallery of photos where the users are able to view various images including their descriptions, location, and some other details.
+This is an application that is a little similar to Instagram as the user is able to see the followers, comment on an image, post an image and some other features that are found on Instagram.
   4thth/01/2021.
 
 ### Author: Ange Uwimana
